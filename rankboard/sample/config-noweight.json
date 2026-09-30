@@ -1,0 +1,14 @@
+{
+  "now": 1700000000,
+  "bases": [
+    {"kind": "net", "weight": 0.0},
+    {"kind": "wilson", "weight": 0.0, "z": 1.96},
+    {"kind": "decay", "weight": -2.0, "half_life": 86400}
+  ],
+  "ordering": {
+    "primary": "total",
+    "tie_break": ["created", "id"],
+    "visibility": "filter",
+    "pinned_first": true
+  }
+}
